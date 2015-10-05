@@ -1,0 +1,100 @@
+
+/*     LAYOUT     */
+
+body {
+	background: #f2f0d6;
+	max-width: 1000px;
+	margin: 15px auto;
+	font-family: georgia, serif;	
+	border-top: 5px solid #000;
+}
+header {
+	border-bottom: 1px solid #000;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+}
+article {
+	max-width: 950px;
+    margin: 40px 20px;
+	float: left;
+}
+.clearfix{
+	clear: both;
+}
+
+
+/*   TYPOGRAPHY   */
+
+p {
+	line-height: 160%;
+}
+h1, h2, h3, h4 {
+	font-family: helvetica, arial, san-serif;
+}
+h2 {
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	font-size: 16px;
+	margin: 40px 0 20px;
+	text-transform: uppercase;
+}
+li {
+	list-style: square;
+	margin-bottom: 30px;
+}
+a {
+	font-style: normal;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+}
+
+
+/*     INLINE LINK LISTS     */
+
+ul.links {
+	padding-left: 0;
+	text-align: center;
+	margin: 10px 0px;
+}
+.links li {
+	font-family: helvetica, arial, san-serif;	
+	display: inline-block;
+	margin: 0;
+	padding: 0 1em;
+	font-style: italic;
+	font-weight: bold;
+	border-left: 2px solid #000;	
+}
+.links li:first-of-type {
+	border-left: none;
+}
+
+
+/*   ABOUT LAYOUT   */
+
+.intro {
+	width: 60%;
+}
+.intro .links {
+	border-top: 1px solid;
+    padding: 30px 0px;
+    margin-top: 40px;
+}
+img.profile {
+	float: right;
+	margin: 25px 10px;
+	width: 300px;
+	-webkit-clip-path: circle(46% at 50% 50%);
+	clip-path: circle(46% at 50% 50%);
+}
